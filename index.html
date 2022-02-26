@@ -1,0 +1,580 @@
+<html>
+    <head>
+        <title>MakeMyTrip</title>
+        <link href="CSS/style.css" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">  
+    </head>
+    <body> 
+        <header>
+              <nav class="navbar fixed-top navbar-expand-md navbar-light bg-faded">
+                <div id="navbar_main" class="container-fluid">
+                  <a id="logo" class="navbar-brand" href="index.html">Make<span id="logo_my">My</span>Trip</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div  class="collapse navbar-collapse">
+                    <!--<ul id="navbar_content" class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form id="form1" class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>&nbsp;&nbsp;-->
+                    <div id="nav_trip">
+                      <img src="image/suitcase.jfif" alt="Trip" class="navbar-light bg-faded">&nbsp;&nbsp;
+                    <div id="mytrip_navbar">
+                      <a href="#"><span>Mytrip</span><br><span>Manage Your Booking</span></a>
+                    </div>
+                  </div>
+                    <div id="login_button">
+                      
+                    <button id="lng_button" class="btn btn-outline-info" type="submit"><img src="image/my_icon.jfif">&nbsp; Login or Create Account &nbsp;&nbsp; &nbsp; &nbsp;</button>
+                    <button id="lng_button" class="btn btn-outline-light" type="submit"> <img src="image/india_flag.png"> IN | ENG | INR</button>
+                    </div>  
+                  </div>
+                </div>
+                </nav>
+                
+              <nav class=" navbar-light bg-faded">
+                <div class="container-fluid">
+                  
+                    <img id="background_pic" src="image/navbar_img.jfif" alt=""  class="d-inline-block align-text-top">
+                </div>
+              </nav>
+        </header>
+
+        <div id="search" class="container card text-center">
+          <div id="search11" class="card-body">
+            <div id="radio" class="row d-inline-block">
+              <span><input type="radio"/>&nbsp; ONEWAY</span>
+              <span><input type="radio"/>&nbsp; ROUND TRIP</span>
+              <span><input type="radio"/>&nbsp; MULTI CITY</span>
+              
+            </div>
+            <div  id="text1">
+              <span>Book International and Domestic Flights</span>
+            </div>
+            <div class="container row">
+              <div id="section" class="col-sm-3">
+                <span>FROM</span>
+                <h2>Mumbai</h2>
+                <span>BOM,Chhatrapati Shivaji International Airport India</span>
+              </div>
+              <div id="section" class="col-sm-3">
+                <span>TO</span>
+                <h2>Bengaluru</h2>
+                <span>BLR, Bengaluru International Airport India</span>
+              </div>
+              <div id="section" class="col-sm-3">
+                <div id="flight1" class="col-sm-6">
+                  <span>DEPARTURE</span><br><br>
+                  <h4>24 Fab'22</h4>
+                  <span>Thursday</span>
+                </div>
+                <div id="flight2" class="col-sm-6">
+                  <span>RETURN</span><br><br>
+                  <h4>4 March'22</h4>
+                  <span>Friday</span>
+                </div>
+              </div>
+              <div id="section" class="col-sm-3">
+                <span>TRAVELLERS & CLASS</span><br><br>
+                <h3>1 Traveller</h3>
+                <span>Economy/Premium Economy</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-primary">Search</a>
+          </div>
+        </div>
+
+      <nav id="search_bar" class="container navbar navbar-light bg-light">
+        <form id="searchbar_content" class="container-fluid justify-content-start">
+          <button class="btn btn-outline-success active me-2" type="button">
+            <i class="fa-solid fa-plane-departure">Flight</i>
+          </button>
+          <button class="btn btn-outline-success me-2" type="button">Hotels</button>
+          <button class="btn btn-outline-success me-2" type="button">Homestays</button>
+          <button class="btn btn-outline-success me-2" type="button">Holiday Packages</button>
+          <button class="btn btn-outline-success me-2" type="button">Trains</button>
+          <button class="btn btn-outline-success me-2" type="button">Buses</button>
+          <button class="btn btn-outline-success me-2" type="button">Cabs</button>
+          <button class="btn btn-outline-success me-2" type="button">Visa</button>
+          <button class="btn btn-outline-success me-2" type="button">Charter Flights</button>
+          <button class="btn btn-outline-success me-2" type="button">Activities</button>
+        </form>
+      </nav>
+
+      <div id="search2" class="container row">
+        <div class="col-sm-3">
+          <div class="card">
+            <div id="shortcut" class="card-body">
+              <a href="" class="card-title" ><h5><img src="#" alt="img">&nbsp; Trip Ideas</h5></a>
+            </div>
+          </div>
+        </div>
+        <div  class="col-sm-3">
+          <div class="card">
+            <div id="shortcut" class="card-body">
+              <a href="" class="card-title" ><h5><img src="#" alt="img">&nbsp; Trip Money</h5></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div id="shortcut" class="card-body">
+              <a href="" class="card-title" ><h5><img src="#" alt="img">&nbsp; Nearby Getaways</h5></a>
+            </div>
+          </div>
+        </div>
+        <div  class="col-sm-3">
+          <div class="card">
+            <div id="shortcut" class="card-body">
+              <a href="" class="card-title" ><h5><img src="#" alt="img">&nbsp; Gift Cards</h5></a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <br>
+      <div id="first_scroll" class="container scrollable">
+        <button id="shortcut_button"><img src="#" alt="#"><h5>Vande Bharat helpline:  Call 0124-4628747 <br> for international flight booking assistance!</h5></button>
+        <button id="shortcut_button"><img src="#" alt="#"> <h5> <br>We are now available in हिन्दी <br> <a href="#">Click here to change language</a></h5></button>
+        <button id="shortcut_button"><img src="#" alt="#"><h5>Flight booking impacted due to COVID-19? <br> <a href="# ">Check refund status here</a></h5></button>
+        <button id="shortcut_button"><img src="#" alt="#"><h5>Booking an international flight?<br><a href="#"> See Schedules &amp; Country Guidelines</a></h5></button>
+        <button id="shortcut_button"><img src="#" alt="#"><h5>Check international destinations<br> open for Indians here, with their guidelines</h5></button>
+        <button id="shortcut_button"><img src="#" alt="#"><h5>Taking a domestic flight? <br> <a href="#">Click to check travel guidelines</a></h5></button>
+        <button id="shortcut_button"><img src="#" alt="#"><h5>Going abroad for education or <br> employment? <br> <a href="#">Check GoI vaccination guidelines</a></h5></button>
+        <button id="shortcut_button"><img src="#" alt="#"><h5>Wondering how to use credit <br>vouchers issued by airlines? <br> <a href="#">Click for detailed instructions</a></h5></button>
+        <button id="shortcut_button"><img src="#" alt="#"><h5>States across India have <br> different  quarantine rules.  <br> <a href="#">Click to know more</a></h5></button>
+        </div><br><br>
+
+        <div class="container">
+          <h1>OFFERS</h1>
+          <nav id="offer_navbar" class="nav">
+            <a class="nav-link active" aria-current="page" href="#">ALL OFFERS</a>
+            <a class="nav-link" href="#">BANK OFFERS</a>
+            <a class="nav-link" href="#">HOTELS</a>
+            <a class="nav-link" href="#">FLIGHTS</a>
+            <a class="nav-link" href="#">HOLIDAYS</a>
+            <a class="nav-link" href="#">TRAINS</a>
+            <a class="nav-link" href="#">MORE...</a>
+          </nav>
+
+        <div class="card-group">
+          <div class="card col-md-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div><br>
+        </div>
+        <div class="card-group">
+          <div class="card col-md-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div><br><br>
+     <!-- <div class="container">
+        <div class="card-group">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div><br>-->
+
+      <div class="container card">
+        <div class="card-body">
+          <h1 class="card-title">Download App Now !</h1>
+          <h3>Get India's #1 travel super app, join 100 Million+ happy travellers!</h3><br><br>
+          <p class="card-text">Use code <span>WELCOMEMMT</span> and get upto <span>RS 1200</span> off on your first domestic flight booking</p>
+          <form id="form1">
+            <a href="#"><img src="image/india_flag.png"></a>
+            <input type="search" placeholder="+91 Enter Mobile Number" aria-label="search">
+            <button class="btn btn-outline-info">GET APP LINK</button>
+          </form>
+          
+          <div>
+            <div id="app_buttons">
+              <img src="image/google-play-badge.jpg"><br>
+              <img src="image/app store icon.jpg">
+            </div>
+            <div id="Qr_code">
+              <img src="image/QRCode.jpg">
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+     <!-- <div class="container card-group">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div><br><br>-->
+
+      <div id="card6" class="container card ">
+        <h2>Handpicked Collections for You</h2>
+        <div id="handpick" class="row">
+          <div class="col-sm-3">
+            <div class="col-sm-6">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-sm-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="col-sm-6">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-sm-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="col-sm-6">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-sm-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="col-sm-6">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-sm-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+            </div>
+          </div>
+          
+        </div>
+      </div><br><br>
+
+      <div id="chart3" class="container card ">
+        <h2>Unlock Lesser-Known Wonders of India</h2>
+        <div class="row ">
+          <div id="wonders" class="col-sm-3">
+          <div class="card bg-dark text-white">
+            <img src="..." class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Last updated 3 mins ago</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        
+      </div><br>
+
+      <div id="chart1" class="container card-body">
+        <h4>PRODUCT OFFERING</h><br>            
+        <a id="chart1_content" href="#" class=""><span> International Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Charter Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels,</span></a>
+        <a id="chart1_content" href="#" class=""><span>International Hotels,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Homestays and Villas,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Activities,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Holidays In India,</span></a>
+        <a id="chart1_content" href="#" class=""><span>International Holidays,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Book Hotels From UAE,</span></a>
+        <a id="chart1_content" href="#" class=""><span>myBiz for SME Travel,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Book Online Cabs,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Book Bus Tickets,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Book Train Tickets,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Vande Bharat Mission Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Air Bubble Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Cheap Tickets to India,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Book Flights From US,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Book Flights From UAE,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Trip Planner,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Gift Cards,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Trip Money,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Trip Ideas,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Travel Blog,</span></a>
+        <a id="chart1_content" href="#" class=""><span>PNR Status</span></a>
+
+      </div>
+
+
+      <div id="chart1" class="container card-body">
+        <h4>MAKEMYTRIP</h4>
+        <a id="chart1_content" href="#" class=""><span>About Us,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Investor Relations,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Careers,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Corporate Travel,</span></a>
+        <a id="chart1_content" href="#" class=""><span>MMT Foundation,</span></a>
+        <a id="chart1_content" href="#" class=""><span>CSR Policy,</span></a>
+        <a id="chart1_content" href="#" class=""><span>myPartner - Travel Agent Portal,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Foreign Exchange,</span></a>
+        <a id="chart1_content" href="#" class=""><span>List your hotel,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Partners- Redbus,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Partners- Goibibo </span></a>
+      </div>
+
+      <div id="chart1" class="container card-body">
+        <h4>QUICK LINKS</h4>
+        <a id="chart1_content" href="#" class=""><span>Delhi Chennai Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Delhi Mumbai Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Delhi Goa Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Chennai Mumbai flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Mumbai Hyderabad flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Kolkata to Rupsi Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Rupsi to Guwahati Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Pasighat to Guwahati Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Delhi to Khajuraho Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Cochin to Agatti Island Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels in Delhi,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels in Mumbai,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels In Goa,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels In Jaipur,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels In Ooty,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels In Udaipur,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels in Puri,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels In North Goa,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Hotels In Rishikesh,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Honeymoon Packages,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Kerala Packages,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Kashmir Packages,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Ladakh Packages,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Goa Packages,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Thailand Packages,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Sri Lanka Visa,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Thailand Visa,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Explore Goa,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Explore Manali,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Explore Shimla,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Explore Jaipur
+
+        </span></a>
+      </div>
+
+      <div id="chart1" class="container card-body">
+        <h4>IMPORTANT LINKS</h><br>    
+        <a id="chart1_content" href="#" class=""><span> Cheap Flights,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Flight Status,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Kumbh Mela,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Domestic Airlines,</span></a>
+        <a id="chart1_content" href="#" class=""><span>International Airlines,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Indigo,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Spicejet,</span></a>
+        <a id="chart1_content" href="#" class=""><span>GoAir,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Air Asia,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Air India,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Corporate Flight Booking,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Trip Ideas,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Honeymoon Destinations,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Romantic Destinations,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Popular Destinations,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Resorts In Udaipur,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Resorts In Munnar,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Villas In Lonavala,</span></a>
+        <a id="chart1_content" href="#" class=""><span> Villas In Goa,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Domestic Flight Offers,</span></a>
+        <a id="chart1_content" href="#" class=""><span>International Flight Offers,</span></a>
+        <a id="chart1_content" href="#" class=""><span>UAE Flight Offers,</span></a>
+        <a id="chart1_content" href="#" class=""><span>USA,</span></a>
+        <a id="chart1_content" href="#" class=""><span>UAE,</span></a>
+        <a id="chart1_content" href="#" class=""><span>UK,</span></a>
+        <a id="chart1_content" href="#" class=""><span>Saudi Arabia</span></a>
+      </div>
+
+      <div id="maincontain" class="container-fluid row card-body">
+        <div id="contain1" class="container">
+          <h3>Why MakeMyTrip?</h3>
+          <p>Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.</p>
+        </div>
+        <div id="contain1" class="container">
+          <h3>Booking Flights with MakeMyTrip</h3>
+          <p>At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.</p>
+        </div>
+        <div id="contain1" class="container">
+          <h3>Domestic Flights with MakeMyTrip</h3>
+          <p>MakeMyTrip is India's leading player for flight bookings, and have a dominant position in the domestic flights sector. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
+        </div>
+      </div>
+
+      <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="social" href="#!" role="icon"><img src="image/facebook.png"></a>
+      
+            <!-- Twitter -->
+            <a class="social" href="#!" role="button"></a>
+      
+            <!-- Google -->
+            <a class="social" href="#!" role="button"><img src="image/youtube1.png"></a>
+      
+            <!-- Instagram -->
+            <a class="social" href="#!" role="button"><img src="image/insta.png"></a>
+      
+            <!-- Linkedin -->
+            <a class="social" href="#" role="button"><i class="fab fa-linkedin-in"></i></a>
+      
+            <!-- Github -->
+            <a class="social" href="#!" role="button"></a>
+          </section>
+        </div>
+        <div id="footer11" class="text-center p-3">
+          © 2022 Copyright:
+          <a class="text-white" href="#">MOHIT SHARMA</a>
+        </div>
+      </footer>
+  </body>
+</html>
