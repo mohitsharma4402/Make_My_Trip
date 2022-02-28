@@ -82,9 +82,23 @@ margin-left: 6%;
 #shortcut > a{
     text-decoration: none;
 }
+#shortcut > a > h5 > img{
+    height: 40px;
+    width: 40px;
+}
 #shortcut_button{
     height: 100px;
     width: 32%;
+}
+#shortcut_button > img{
+    height: 50px;
+    width: 50px;
+    margin-top: 6%;
+    margin-left: -84%;
+}
+#shortcut_button > h5{
+    margin-top: -17%;
+    margin-left: 15%;
 }
 #card{
     background-color: aliceblue;
@@ -138,24 +152,31 @@ margin-left: 6%;
     height: 100px;
     width: 100px ;
 }
-
 #offer_navbar{
-    margin-top: -3%;
-    margin-left: 16%;
+    margin-top: -4%;
+    margin-left: 18%;
+}
+#offer_div > h1{
+    margin-left: 3%;
+    font-size: 50px;
 }
 #card6{
     height: 300px;
 }
+#card123{
+    width: 100%;
+}
+#card1234 > img{
+    width: 100%;
+}
 #handpick{
     height: 252px;
-    border: 2px solid black;
 }
 #chart3{
     height: 300px;
 }
 #wonders{
-    height: 252px;
-    border: 2px solid black;
+    height: 207px;
 }
 #chart1 > h4{ 
     font-size: 15px;
@@ -180,6 +201,9 @@ margin-left: 6%;
 }
 #footer11{
     background-color: rgba(0, 0, 0, 0.2);
+}
+#footer11 > a{
+    text-decoration: none;
 }
 .social > img{
     height: 40px;
