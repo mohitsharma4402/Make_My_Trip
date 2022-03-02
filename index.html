@@ -51,11 +51,22 @@
                       <a href="#"><span>Mytrip</span><br><span>Manage Your Booking</span></a>
                     </div>
                   </div>
-                    <div id="login_button">
+                  <div id="login_button">
                       
                     <button id="lng_button" class="btn btn-outline-info" type="submit"><img src="image/my_icon.jfif">&nbsp; Login or Create Account &nbsp;&nbsp; &nbsp; &nbsp;</button>
                     <button id="lng_button" class="btn btn-outline-light" type="submit"> <img src="image/india_flag.png"> IN | ENG | INR</button>
-                    </div>  
+                    
+                      <button id="modebutton" class="btn" type="reset" onClick="changeMode()" > <img id="myImage" src="image/dark.png" onclick="document.getElementById('myImage').src='image/light.png'"style="width:50px"></button>
+                      
+                     
+                      <script type="text/javascript">
+                        function changeMode(){
+                            var mybody = document.body;
+                            mybody.classList.toggle('mydark')
+                        }
+                      </script>
+                    </button>
+                  </div>  
                   </div>
                 </div>
                 </nav>
@@ -140,7 +151,7 @@
         <div  class="col-sm-3">
           <div class="card">
             <div id="shortcut" class="card-body">
-              <a href="" class="card-title" ><h5><img src="image/image.jfif" alt="img">&nbsp; Trip Money</h5></a>
+              <a href="" class="card-title" ><h5><img src="image/image.jfif" alt="img">&nbsp;&nbsp; Trip Money</h5></a>
             </div>
           </div>
         </div>
@@ -165,9 +176,9 @@
         <button id="shortcut_button"><img src="image/vande plan.png" alt="#"><h5>Vande Bharat helpline:  <br> Call 0124-4628747  for international <br> flight booking assistance!</h5></button>
         <button id="shortcut_button"><img src="image/translet.jfif" alt="#"> <h5> <br>We are now available in हिन्दी <br> <a href="#">Click here to change language</a></h5></button>
         <button id="shortcut_button"><img src="image/plan.png" alt="#"><h5>Flight booking impacted due to <br> COVID-19? <br> <a href="# ">Check refund status here</a></h5></button>
-        <button id="shortcut_button"><img src="image/vande aeroplan.png" alt="#"><h5>Booking an international flight?<br><a href="#"> See Schedules &amp; Country Guidelines</a></h5></button>
-        <button id="shortcut_button"><img src="image/vande plan.png" alt="#"><h5>Check international destinations<br> open for Indians here, with their guidelines</h5></button>
-        <button id="shortcut_button"><img src="image/vande aeroplan.png" alt="#"><h5>Taking a domestic flight? <br> <a href="#">Click to check travel guidelines</a></h5></button>
+        <button id="shortcut_button"><img src="image/vande aeroplan.png" alt="#"><h5>Booking an international <br> flight?<br><a href="#"> See Schedules &amp; Country Guidelines</a></h5></button>
+        <button id="shortcut_button"><img src="image/vande plan.png" alt="#"><h5>Check international destinations open <br> for Indians here, with their guidelines<br><a href="#">Click to check</a> </h5></button>
+        <button id="shortcut_button"><img src="image/vande aeroplan.png" alt="#"><h5>Taking a domestic <br> flight? <br> <a href="#">Click to check travel guidelines</a></h5></button>
         <button id="shortcut_button"><img src="image/plan.png" alt="#"><h5>Going abroad for <br> education or  employment? <br> <a href="#">Check GoI vaccination guidelines</a></h5></button>
         <button id="shortcut_button"><img src="image/aero.png" alt="#"><h5>Wondering how to use credit <br>vouchers issued by airlines? <br> <a href="#">Click for detailed instructions</a></h5></button>
         <button id="shortcut_button"><img src="image/men mask.png" alt="#"><h5>States across India have <br> different  quarantine rules.  <br> <a href="#">Click to know more</a></h5></button>
@@ -186,7 +197,7 @@
           </nav><br>
 
         <div class="card-group">
-          <div id="offer_div" class="card col-md-4">
+          <div class="card col-md-4">
             <div class="row g-0">
               <div class="col-md-6">
                 <img src="image/img/tour-1.jpg" class="img-fluid rounded-start" alt="...">
@@ -368,7 +379,8 @@
             </div>
             <div id="card123" class="col-sm-2">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <button class="btn btn-outline-dark btn-info">TOP 11</button>
+              <a href="#"><h5 class="card-title">Honeymoon Destinations</h5></a>
             </div>
             </div>
           </div>
@@ -378,7 +390,8 @@
             </div>
             <div id="card123" class="col-sm-2">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <button class="btn btn-outline-dark btn-info">TOP 11</button>
+              <a href="#"><h5 class="card-title">Beach Destinations</h5></a>
             </div>
             </div>
           </div>
@@ -388,7 +401,8 @@
             </div>
             <div id="card123" class="col-sm-2">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <button class="btn btn-outline-dark btn-info">TOP 11</button>
+              <a href="#"><h5 class="card-title">Heritage Destinations</h5></a>
             </div>
             </div>
           </div>
@@ -398,7 +412,8 @@
             </div>
             <div id="card123" class="col-sm-2">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <button class="btn btn-outline-dark btn-info">TOP 11</button>
+              <a href="#"><h5 class="card-title">International Destinations</h5></a>
             </div>
             </div>
           </div>
@@ -407,7 +422,7 @@
 
       <div id="chart3" class="container card">
         <h2> Unlock Lesser-Known Wonders of India </h2>
-        <div class="row">
+        <div id="unlockdiv" class="row">
           <div class="col-sm-3">
             <div id="wonders" class="card bg-dark text-white">
               <img src="image/img/blog-1.jpg" class="card-img" alt="...">
@@ -447,8 +462,11 @@
         </div>
       </div><br>
 
+
+      <div id="maincontain1" class="container">
+      <div id="maincontain12">
       <div id="chart1" class="container card-body">
-        <h4>PRODUCT OFFERING</h><br>            
+        <h4>PRODUCT OFFERING</h4>            
         <a id="chart1_content" href="#" class=""><span> International Flights,</span></a>
         <a id="chart1_content" href="#" class=""><span>Charter Flights,</span></a>
         <a id="chart1_content" href="#" class=""><span>Hotels,</span></a>
@@ -524,10 +542,9 @@
         <a id="chart1_content" href="#" class=""><span>Explore Goa,</span></a>
         <a id="chart1_content" href="#" class=""><span>Explore Manali,</span></a>
         <a id="chart1_content" href="#" class=""><span>Explore Shimla,</span></a>
-        <a id="chart1_content" href="#" class=""><span>Explore Jaipur
-
-        </span></a>
+        <a id="chart1_content" href="#" class=""><span>Explore Jaipur</span></a>
       </div>
+      
 
       <div id="chart1" class="container card-body">
         <h4>IMPORTANT LINKS</h><br>    
@@ -558,8 +575,12 @@
         <a id="chart1_content" href="#" class=""><span>UK,</span></a>
         <a id="chart1_content" href="#" class=""><span>Saudi Arabia</span></a>
       </div>
+    </div>
+    </div>
+
 
       <div id="maincontain" class="container-fluid row card-body">
+      <div id="maincontain2" class="container row">
         <div id="contain1" class="container">
           <h3>Why MakeMyTrip?</h3>
           <p>Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.</p>
@@ -573,9 +594,10 @@
           <p>MakeMyTrip is India's leading player for flight bookings, and have a dominant position in the domestic flights sector. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
         </div>
       </div>
+      </div>
 
       <footer class="bg-dark text-center text-white">
-        <div class="container p-4 pb-0">
+        <div id="leftfooter" class="container p-4 pb-0">
           <section class="mb-4">
             <!-- Facebook -->
             <a class="social" href="#!" role="icon"><img src="image/facebook.png"></a>
