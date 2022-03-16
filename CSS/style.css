@@ -1,6 +1,29 @@
 body{
     margin: 0%;
 }
+#coupon{
+    height:300px;
+    width:800px;
+    background-color:gray;
+    z-index:100;
+    margin:auto;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+#coupon > button{
+    margin-left: 96%;
+    position: absolute;
+}
+#grabbutton{
+    position: absolute;
+    margin-top: -6%;
+    margin-left: 17%;
+}
+#grabbutton > button{
+    border-radius: 8%;
+}
 #navbar_main{
     margin-top: 1%;
 }
@@ -394,15 +417,168 @@ footer{
 }
 
 @media screen and (max-width:1200px){
-    
+    #text1 {
+        margin-top: -2%;
+        margin-left: 60%;
+    }
+    #radio {
+        margin-left: -58%;
+    }
+    #flight2 {
+        margin-left: 56%;
+        margin-top: -73%;
+        line-height: 1;
+    }
+    #searchbar_content > button {
+        font-size: 14px;
+    }
+    #search_bar {
+        margin-top: -23%;
+        height: 61px;
+        width: 80%;
+        border-radius: 7px;
+    }
+    #search2 {
+        margin-top: 25%;
+        margin-left: 8%;
+        width: 93%;
+    }
+    #offer_div > h1 {
+        padding-top: 7px;
+        margin-left: 0%;
+        font-size: 50px;
+    }
+    #offer_navbar {
+        margin-top: -6%;
+        margin-left: 20%;
+    }
+    #app_buttons {
+        margin-top: -5%;
+        margin-left: 68%;
+    }
+    #Qr_code {
+        margin-top: -10%;
+        margin-left: 84%;
+    }
+    #card6 {
+        height: 324px;
+        color: black;
+    }
+    #wonders {
+        height: 150px;
+    }
+    #chart3 {
+        height: 233px;
+        color: black;
+    }
+    #maincontain1 {
+        height: 570px;
+    }
+
+}
+@media screen and (max-width:1150px){
+    #nav_trip {
+        margin-left: 18%;
+    }
+    #searchbar_content > button {
+        font-size: 10px;
+    }
+    #search_bar {
+        margin-top: -23%;
+        height: 47px;
+        width: 70%;
+        border-radius: 7px;
+    }
+    #contain1 {
+        height: 320px;
+        width: 33.33%;
+        font-size: 12px;
+    }
+    #search {
+        margin-top: -29%;
+        height: 220px;
+        background-color: oldlace;
+        color: black;
+    }
 }
 
 @media screen and (max-width:1100px){
-    
+    #nav_trip {
+        margin-left: 15%;
+    }
+    #search_bar {
+        margin-top: -24%;
+        height: 47px;
+        width: 74%;
+        border-radius: 7px;
+    }
+    #search2 {
+        margin-top: 28%;
+        margin-left: 5%;
+        width: 93%;
+    }
+    #contain1 {
+        height: 340px;
+        width: 33.33%;
+        font-size: 12px;
+    }
 }
-
+@media screen and (max-width:1050px){
+    #nav_trip {
+        margin-left: 12%;
+    }
+    #search {
+        margin-top: -33%;
+        height: 220px;
+        background-color: oldlace;
+        color: black;
+    }
+    #search_bar {
+        margin-top: -25%;
+        height: 47px;
+        width: 78%;
+        border-radius: 7px;
+    }
+}
 @media screen and (max-width:1000px){
-    
+    #logo {
+        margin-left: 3%;
+    }
+    #nav_trip {
+        margin-left: 10%;
+    }
+    #search {
+        margin-top: -35%;
+        height: 270px;
+        background-color: oldlace;
+        color: black;
+    }
+    #searchbar_content > button {
+        font-size: 7px;
+    }
+    #search_bar {
+        margin-top: -32%;
+        height: 42px;
+        width: 68%;
+        border-radius: 7px;
+    }
+    #text1 {
+        margin-top: 0%;
+        margin-left: -3%;
+    }
+    #radio {
+        margin-left: -3%;
+        background-color: silver;
+    }
+    #section11 {
+        width: 109%;
+        margin-left: -4%;
+    }
+    #search2 {
+        margin-top: 35%;
+        margin-left: 9%;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:900px){
