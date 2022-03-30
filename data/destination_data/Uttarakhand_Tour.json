@@ -1,0 +1,92 @@
+[
+    
+    {
+        "id": 01,
+        "destination_name": "Haridwar",
+        "Trip_Price": 19499,
+        "Place": "Haridwar",
+        "rating": "4.1",
+        "Image": "https://ibb.co/0Gjy5ZS",
+        "state": "Uttarakhand",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 02,
+        "destination_name": "Uttarkashi",
+        "Trip_Price": 15499,
+        "Place": "Uttarkashi",
+        "rating": "4.1",
+        "Image": "https://ibb.co/107TGSf",
+        "state": "Uttarakhand",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 03,
+        "destination_name": "Landour",
+        "Trip_Price": 17999,
+        "Place": " Landour",
+        "rating": "4.1",
+        "Image": "https://ibb.co/DKLWqDN",
+        "state": "Uttarakhand",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 04,
+        "destination_name": "Kalap",
+        "Trip_Price": 14799,
+        "Place": "Kalap",
+        "rating": "4.1",
+        "Image": "https://ibb.co/54jGcJc",
+        "state": "Uttarakhand",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 05,
+        "destination_name": "Dehradun",
+        "Trip_Price": 9999,
+        "Place": "Dehradun",
+        "rating": "4.1",
+        "Image": "https://ibb.co/W2NzGkq",
+        "state": "Uttarakhand",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 06,
+        "destination_name": "Rishikesh",
+        "Trip_Price": 8999,
+        "Place": "Rishikesh",
+        "rating": "4.1",
+        "Image": "https://ibb.co/59YFvcdhttps://ibb.co/WVsJw6x",
+        "state": "Uttarakhand",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 07,
+        "destination_name": "Nainital",
+        "Trip_Price": 14999,
+        "Place": "Nainital",
+        "rating": "4.1",
+        "Image": "https://ibb.co/WVsJw6x",
+        "state": "Uttarakhand",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 08,
+        "destination_name": "Mussoorie",
+        "Trip_Price": 8999,
+        "Place": "Mussoorie",
+        "rating": "4.1",
+        "Image": "https://ibb.co/M7RD2G1",
+        "state": "Uttarakhand",
+        "country": "India",
+        "route": "By Road"
+    }
+    
+]

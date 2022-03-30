@@ -1,0 +1,134 @@
+[
+    {
+        "id": 01,
+        "beach_name": "Candolim Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 7299,
+        "Place": "North Goa",
+        "rating": "4.8",
+        "Image": "https://ibb.co/TYpGvgH",
+        "state": "Goa",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 02,
+        "beach_name": "Chandipur Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 9599,
+        "Place": "Balasore",
+        "rating": "4.8",
+        "Image": "https://ibb.co/wpXtp1d",
+        "state": "Odisha",
+        "route": "By Road"
+    },
+
+    {
+        "id": 03,
+        "beach_name": "Cavelossim Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 7299,
+        "Place": "South Goa",
+        "rating": "4.6",
+        "Image": "https://ibb.co/jhD6B1Y",
+        "state": "Goa",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 04,
+        "beach_name": "Blue Flag Golden Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 8799,
+        "Place": "Puri",
+        "rating": "4.6",
+        "Image": "https://ibb.co/bbBXb8z",
+        "state": "Odisha",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 05,
+        "beach_name": "Butterfly Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 5999,
+        "Place": "South Goa",
+        "rating": "4.5",
+        "Image": "https://ibb.co/JkGbHdG",
+        "state": "Goa",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 06,
+        "beach_name": "Om Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 8499,
+        "Place": "Gokarna",
+        "rating": "4.4",
+        "Image": "https://ibb.co/4SnMnyL",
+        "state": "Karnataka",
+        "route": "By Road"
+    },
+
+    {
+        "id": 07,
+        "beach_name": "Kovalam Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 10499,
+        "Place": "Trivandrum",
+        "rating": "4.5",
+        "Image": "https://ibb.co/Dzchr05",
+        "state": "Kerala",
+        "route": "By Road"
+    },
+
+    {
+        "id": 08,
+        "beach_name": "Kanyakumari Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 10999,
+        "Place": "Kanyakumari",
+        "rating": "4.5",
+        "Image": "https://ibb.co/KLxcQ1v",
+        "state": "Tamil Nadu",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 09,
+        "beach_name": "Wandoor Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 15999,
+        "Place": "Port Blair",
+        "rating": "4.8",
+        "Image": "https://ibb.co/19bpgWk",
+        "state": "Andaman and Nicobar",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 10,
+        "beach_name": "Cherai Beach",
+        "category": "beach",
+        "category_id": 01,
+        "Trip_Price": 10999,
+        "Place": "Kochi",
+        "rating": "4.5",
+        "Image": "https://ibb.co/T2FthkT",
+        "state": "Kerala",
+        "route": "By Flight"
+    },
+    
+    
+
+]

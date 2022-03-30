@@ -1,0 +1,81 @@
+[
+    {
+        "id": 01,
+        "package_name": "Thailand Tour Packages",
+        "category": "international_package",
+        "category_id": 04,
+        "Trip_Price": 39999,
+        "Place": "Thailand",
+        "days": "5 Days / 4 Nights",
+        "rating": "4.4",
+        "Image": "https://ibb.co/vcTKfFd",
+        "country": "Thailand",
+    },
+
+    {
+        "id": 02,
+        "package_name": "Dubai Tour Packages",
+        "category": "international_package",
+        "category_id": 04,
+        "Trip_Price": 49999,
+        "Place": "Dubai",
+        "days": "5 Days / 4 Nights",
+        "rating": "4.4",
+        "Image": "https://ibb.co/TqqTdbw",
+        "country": "Dubai",
+    },
+    
+    {
+        "id": 03,
+        "package_name": "Singapore Tour Packages",
+        "category": "international_package",
+        "category_id": 04,
+        "Trip_Price": 34999,
+        "Place": "Singapore",
+        "days": "5 Days / 4 Nights",
+        "rating": "4.4",
+        "Image": "https://ibb.co/kmxFL8g",
+        "country": "Singapore",
+    },
+
+    {
+        "id": 04,
+        "package_name": "Maldives Tour Packages",
+        "category": "international_package",
+        "category_id": 04,
+        "Trip_Price": 54999,
+        "Place": "Maldives",
+        "days": "4 Days / 3 Nights",
+        "rating": "4.4",
+        "Image": "https://ibb.co/H4NWW37",
+        "country": "Maldives",
+    },
+
+    {
+        "id": 05,
+        "package_name": "Paris Tour Packages",
+        "category": "international_package",
+        "category_id": 04,
+        "Trip_Price": 94999,
+        "Place": "Paris",
+        "days": "7 Days / 6 Nights",
+        "rating": "4.4",
+        "Image": "https://ibb.co/7pC1L6X",
+        "country": "Paris",
+    },
+
+    {
+        "id": 06,
+        "package_name": "Switzerland Tour Packages",
+        "category": "international_package",
+        "category_id": 04,
+        "Trip_Price": 74999,
+        "Place": "Switzerland",
+        "days": "6 Days / 5 Nights",
+        "rating": "4.4",
+        "Image": "https://ibb.co/h2FtJRT",
+        "country": "Switzerland",
+    }, 
+
+    
+]

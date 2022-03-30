@@ -1,0 +1,79 @@
+[
+    {
+        "id": 01,
+        "destination_name": "Gateway of India",
+        "Trip_Price": 9999,
+        "Place": "Gateway of India",
+        "rating": "4.5",
+        "Image": "https://ibb.co/dpd3MvF",
+        "state": "Mumbai",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 02,
+        "destination_name": "Sanjay Gandhi National Park",
+        "Trip_Price": 4999,
+        "Place": "Sanjay Gandhi National Park",
+        "rating": "4.2",
+        "Image": "https://ibb.co/fCKd5cz",
+        "state": "Mumbai",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 03,
+        "destination_name": "Red Carpet Wax Museum",
+        "Trip_Price": 6999,
+        "Place": "Red Carpet Wax Museum",
+        "rating": "4.1",
+        "Image": "https://ibb.co/T2Z0Hz3",
+        "state": "Mumbai",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 04,
+        "destination_name": "Haji Ali Dargah",
+        "Trip_Price": 4999,
+        "Place": "Haji Ali Dargah",
+        "rating": "3.8",
+        "Image": "https://ibb.co/QCtVWYQ",
+        "state": "Mumbai",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 05,
+        "destination_name": "Elephanta Caves",
+        "Trip_Price": 3499,
+        "Place": "Elephanta Caves",
+        "rating": "4.0",
+        "Image": "https://ibb.co/kMJ97rq",
+        "state": "Mumbai",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 06,
+        "destination_name": "Chhatrapati Shivaji Terminus (CST)",
+        "Trip_Price": 2999,
+        "Place": "Chhatrapati Shivaji Terminus (CST)",
+        "rating": "4.2",
+        "Image": "https://ibb.co/x7V8PkB",
+        "state": "Mumbai",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 07,
+        "destination_name": "Siddhivinayak Temple",
+        "Trip_Price": 1999,
+        "Place": "Siddhivinayak Temple",
+        "rating": "4.1",
+        "Image": "https://ibb.co/nsqLy13",
+        "state": "Mumbai",
+        "country": "India",
+        "route": "By Road"
+    }
+]

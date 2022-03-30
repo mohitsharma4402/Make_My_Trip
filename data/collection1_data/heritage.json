@@ -1,0 +1,158 @@
+[
+    {
+        "id": 01,
+        "heritage_site": "Taj Mahal",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 4299,
+        "Place": "Agra",
+        "rating": "4.5",
+        "Image": "https://ibb.co/mXsjvcV",
+        "state": "Uttar Pradesh,India",
+        "route": "By Train"
+    },
+
+    {
+        "id": 02,
+        "heritage_site": "Hampi",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 4999,
+        "Place": "Vijayanagara",
+        "rating": "4.5",
+        "Image": "https://ibb.co/db72p73",
+        "state": "Karnataka,India",
+        "route": "By Train"
+    },
+
+    {
+        "id": 03,
+        "heritage_site": "Ajanta Caves ",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 6499,
+        "Place": " Aurangabad ",
+        "rating": "4.5",
+        "Image": "https://ibb.co/598JBHn",
+        "state": " Maharashtra,India",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 04,
+        "heritage_site": "Khajuraho ",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 5299,
+        "Place": " Chhatarpur",
+        "rating": "4.5",
+        "Image": "https://ibb.co/j351NtT",
+        "state": " Madhya Pradesh,India",
+        "route": "By road"
+    },
+
+    {
+        "id": 05,
+        "heritage_site": "Elephanta Caves",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 5799,
+        "Place": "	Elephanta Island",
+        "rating": "4.5",
+        "Image": "https://ibb.co/S5BncRK",
+        "state": " Maharashtra,India",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 06,
+        "heritage_site": "Kaziranga National Park",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 8999,
+        "Place": "Kaziranga",
+        "rating": "4.5",
+        "Image": "https://ibb.co/p2rTwSR",
+        "state": "Assam, India",
+        "route": "By Road"
+    },
+
+    {
+        "id": 07,
+        "heritage_site": "Amber Palace",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 5299,
+        "Place": "Jaipur",
+        "rating": "4.5",
+        "Image": "https://ibb.co/9cs4v70",
+        "state": "Rajasthan,India",
+        "route": "By Train"
+    },
+
+    {
+        "id": 08,
+        "heritage_site": "Konark",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 8999,
+        "Place": "Puri",
+        "rating": "4.5",
+        "Image": "https://ibb.co/M5NJ0cP",
+        "state": "Odisha,India",
+        "route": "By Train"
+    },
+
+    {
+        "id": 09,
+        "heritage_site": "Qutb Minar",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 7999,
+        "Place": "Mehrauli",
+        "rating": "4.5",
+        "Image": "https://ibb.co/hdMnmkZ",
+        "state": "Delhi,India",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 10,
+        "heritage_site": "Historic City of Ahmadabad",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 8499,
+        "Place": "Ahmadabad",
+        "rating": "4.5",
+        "Image": "https://ibb.co/XLm4L47",
+        "state": "Gujarat ,India",
+        "route": "By Train"
+    },
+
+    {
+        "id": 11,
+        "heritage_site": "Humayun's Tomb",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 6999,
+        "Place": "Nizamuddin East",
+        "rating": "4.5",
+        "Image": "https://ibb.co/sqGgFQq",
+        "state": "Delhi,India",
+        "route": "By Flight"
+    },
+
+    {
+        "id": 12,
+        "heritage_site": "Darjeeling Himalayan Railway",
+        "category": "heritage",
+        "category_id": 02,
+        "Trip_Price": 6999,
+        "Place": "Darjeeling",
+        "rating": "4.5",
+        "Image": "https://ibb.co/m6njCJ1",
+        "state": "West Bengal,India",
+        "route": "By Train"
+    },
+
+]

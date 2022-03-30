@@ -1,0 +1,167 @@
+[
+    {
+        "id": 01,
+        "destination_name": "Mehrangarh Fort",
+        "Trip_Price": 1999,
+        "Place": "Jodhpur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/k3vznX6",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 02,
+        "destination_name": "Amber Fort and Palace",
+        "Trip_Price": 1999,
+        "Place": "Jaipur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/9cs4v70",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 03,
+        "destination_name": "Jain Temple",
+        "Trip_Price": 1999,
+        "Place": "Ranakpur, Udaipur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/nLPDcqD",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 04,
+        "destination_name": "Kumbhalgarh Fort",
+        "Trip_Price": 1999,
+        "Place": "Udaipur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/F546s8F",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 05,
+        "destination_name": "Dilwara Jain Temples",
+        "Trip_Price": 1999,
+        "Place": "Mount Abu",
+        "rating": "4.1",
+        "Image": "https://ibb.co/09qfY6f",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 06,
+        "destination_name": "Keoladeo Ghana National Park",
+        "Trip_Price": 1999,
+        "Place": "Bharatpur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/3hx6nch",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 07,
+        "destination_name": "Junagarh Fort",
+        "Trip_Price": 1999,
+        "Place": "Bikaner",
+        "rating": "4.1",
+        "Image": "https://ibb.co/CBffCLV",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 08,
+        "destination_name": "Chittorgarh Fort",
+        "Trip_Price": 1999,
+        "Place": "Chittorgarh",
+        "rating": "4.1",
+        "Image": "https://ibb.co/svNFmFk",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 09,
+        "destination_name": "Govind Devji Temple",
+        "Trip_Price": 1999,
+        "Place": "Jaipur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/Fb0hsW7",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 10,
+        "destination_name": "Sheesh Mahal (Hall of Mirrors)",
+        "Trip_Price": 1999,
+        "Place": "Jaipur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/GtdC0g5",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 11,
+        "destination_name": "Ranthambore National Park",
+        "Trip_Price": 1999,
+        "Place": "Sawai Madhopur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/yYmQ7fd",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 12,
+        "destination_name": "Lake Pichola",
+        "Trip_Price": 1999,
+        "Place": "Udaipur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/JncjPR2",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 13,
+        "destination_name": "Bagore Ki Haveli",
+        "Trip_Price": 1999,
+        "Place": "Udaipur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/K5YMnY5",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 14,
+        "destination_name": "Jantar Mantar",
+        "Trip_Price": 1999,
+        "Place": "Jaipur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/PcQtVkQ",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 15,
+        "destination_name": "City Palace of Udaipur",
+        "Trip_Price": 1999,
+        "Place": "Udaipur",
+        "rating": "4.1",
+        "Image": "https://ibb.co/0jwTKr1",
+        "state": "Rajasthan",
+        "country": "India",
+        "route": "By Road"
+    }
+]

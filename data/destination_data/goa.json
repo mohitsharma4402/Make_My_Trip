@@ -1,0 +1,123 @@
+[
+
+    {
+        "id": 01,
+        "destination_name": "Palolem Beach.",
+        "Trip_Price": 4499,
+        "Place": "Palolem",
+        "rating": "4.4",
+        "Image": "https://ibb.co/Drq5h7K",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 02,
+        "destination_name": "Portuguese-Indian Restaurants.",
+        "Trip_Price": 4499,
+        "Place": "Indian_beach",
+        "rating": "4.4",
+        "Image": "https://ibb.co/TLYpxYW",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 03,
+        "destination_name": "Basilica de Bom Jesus.",
+        "Trip_Price": 4499,
+        "Place": "basilica",
+        "rating": "4.4",
+        "Image": "https://ibb.co/BwkQZKz",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 04,
+        "destination_name": "Dudhsagar Falls",
+        "Trip_Price": 4499,
+        "Place": "Dudhsagar Falls",
+        "rating": "4.4",
+        "Image": "https://ibb.co/pr7jqJk",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 05,
+        "destination_name": "Anjuna Market",
+        "Trip_Price": 4499,
+        "Place": "Anjuna",
+        "rating": "4.4",
+        "Image": "https://ibb.co/Drq5h7K",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 06,
+        "destination_name": "Braganza House",
+        "Trip_Price": 4499,
+        "Place": "Braganza House",
+        "rating": "4.4",
+        "Image": "https://ibb.co/Nn5Jb2j",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 07,
+        "destination_name": "Mahadev Temple",
+        "Trip_Price": 4499,
+        "Place": "Mahadev Temple",
+        "rating": "4.4",
+        "Image": "https://ibb.co/nsqLy13",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 08,
+        "destination_name": "Mangeshi Temple",
+        "Trip_Price": 4499,
+        "Place": "Mangeshi Temple",
+        "rating": "4.4",
+        "Image": "https://ibb.co/yYyWGhF",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 09,
+        "destination_name": "Fontainhas",
+        "Trip_Price": 4499,
+        "Place": "Fontainhas",
+        "rating": "4.4",
+        "Image": "https://ibb.co/5nVYjKQ",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 10,
+        "destination_name": "Reis Magos Fort",
+        "Trip_Price": 4499,
+        "Place": "Magos Fort",
+        "rating": "4.4",
+        "Image": "https://ibb.co/Xb10Y1f",
+        "state": "Goa",
+        "country": "India",
+        "route": "By Road"
+    }
+
+]

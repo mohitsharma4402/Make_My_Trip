@@ -1,0 +1,70 @@
+[
+    {
+        "id": 01,
+        "destination_name": "Leh Ladakh",
+        "Trip_Price": 24999,
+        "Place": "Leh Ladakh",
+        "rating": "4.8",
+        "Image": "https://ibb.co/3M4KnJQ",
+        "state": "  Himachal Pradesh",
+        "country": "India",
+        "route": "By Road"
+    }
+
+    {
+        "id": 02,
+        "destination_name": "Malana",
+        "Trip_Price": 17499,
+        "Place": "Malana",
+        "rating": "4.4",
+        "Image": "https://ibb.co/j68XcK0",
+        "state": " Himachal Pradesh",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 03,
+        "destination_name": "Andretta",
+        "Trip_Price": 19499,
+        "Place": "Andretta",
+        "rating": "4.5",
+        "Image": "https://ibb.co/WkXfJM6",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 04,
+        "destination_name": "Kasol",
+        "Trip_Price": 14999,
+        "Place": "Kasol",
+        "rating": "4.8",
+        "Image": "https://ibb.co/kM24LC0",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 05,
+        "destination_name": "Tirthan Valley",
+        "Trip_Price": 11999,
+        "Place": "Tirthan Valley",
+        "rating": "4.2",
+        "Image": "https://ibb.co/Dpp9n7k",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "route": "By Road"
+    }
+    {
+        "id": 06,
+        "destination_name": "Spiti Valley",
+        "Trip_Price": 14199,
+        "Place": "Spiti Valley",
+        "rating": "4.5",
+        "Image": "https://ibb.co/kM24LC0",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "route": "By Road"
+    }
+
+]

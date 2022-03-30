@@ -1,0 +1,49 @@
+[
+    {
+        "id": 01,
+        "Trip_offer": "Grab Offer On Himalayan Bookings",
+        "category": "Trip",
+        "discription": "80% Discount On First Booking Worldwide",
+        "coupon_code": "80OFF",
+        "validation": "Hurry, offer valid till 31th March 2022.",
+    }
+
+    {
+        "id": 02,
+        "Trip_offer": "Offer On India Tour Trip",
+        "category": "Trip",
+        "discription": "Get UpTo 40% Off Weekend Super Sale",
+        "coupon_code": "WSS40OF",
+        "validation": "Hurry, offer valid till 31th March 2022.",
+    }
+
+    {
+        "id": 03,
+        "Trip_offer": "Offer On Weekend Trip Bookings",
+        "category": "Trip",
+        "discription": "50% Off For Prime Members",
+        "coupon_code": "OFF50",
+        "validation": "Hurry, offer valid till 31th March 2022.",
+    }
+
+    {
+        "id": 04,
+        "Trip_offer": "Offer On Hotel Bookings",
+        "category": "Trip",
+        "discription": "60% Off On App For Trip Bookings Worldwide",
+        "coupon_code": "FIRST100",
+        "validation": "Hurry, offer valid till 31th March 2022.",
+    }
+
+    {
+        "id": 05,
+        "Trip_offer": "Super Boom Offers",
+        "category": "Trip",
+        "discription": "50% Off For New User",
+        "coupon_code": "NEW50",
+        "validation": "Hurry, offer valid till 31th March 2022.",
+    }
+
+    
+    
+]

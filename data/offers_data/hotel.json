@@ -1,0 +1,48 @@
+[
+
+    {
+        "id": 01,
+        "offer_name": "Offer On Hotel Bookings",
+        "category": "Hotel",
+        "discription": "25% Discount On Hotels. Up to ₹10,000 Off On Hotel Bookings.",
+        "coupon_code": "CTHOTEL",
+        "validation": "Hurry, offer valid till 28th March 2022.",
+    }
+
+    {
+        "id": 02,
+        "offer_name": "Instant Discount Hotel Bookings",
+        "category": "Hotel",
+        "discription": "Domestic Hotels : Upto Rs.4000 Instant Discount On Hotel Bookings",
+        "coupon_code": "MMTBESTBUY",
+        "validation": "Hurry, offer valid till 31th March 2022.",
+    }
+
+    {
+        "id": 03,
+        "offer_name": "Special Offer On Hotel Bookings",
+        "category": "Hotel",
+        "discription": "Special Deal : Upto 55% Off Now Starting @ Rs.399 + Extra 30% Oyo Money Cashback",
+        "coupon_code": "OYOCGS",
+        "validation": "Hurry, offer valid till 31th March 2022.",
+    }
+
+    {
+        "id": 04,
+        "offer_name": "Offer On Hotel Bookings",
+        "category": "Hotel",
+        "discription": "Hotel Bookings : Upto 50% Off On Hotel Deals Across India",
+        "coupon_code": "OFF50",
+        "validation": "Hurry, offer valid till 30th March 2022.",
+    }
+
+    {
+        "id": 05,
+        "offer_name": "Mega Offer On Hotel Bookings",
+        "category": "Hotel",
+        "discription": "Special Offer : Upto 59% Off On All Hotel Bookings",
+        "coupon_code": "GRAB59",
+        "validation": "Hurry, offer valid till 28th March 2022.",
+    }
+
+]

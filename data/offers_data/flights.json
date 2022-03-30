@@ -1,0 +1,76 @@
+[
+    {
+        "id": 01,
+        "offer_name": "Best Domestic Flight Offer",
+        "category": "Domestic Flight",
+        "discription": "Flat Rs.555 OFF on Flights",
+        "coupon_code": "FLIGHT",
+        "type": "Flight"
+    }
+
+    {
+        "id": 02,
+        "offer_name": "Flight Special Offer!",
+        "category": "Domestic Flight",
+        "discription": "Book domestic flights and get up to Rs. 5000 off",
+        "coupon_code": "CTFLY",
+        "type": "Flight"
+    }
+
+    {
+        "id": 03,
+        "offer_name": "Best International Flight Offer",
+        "category": "International Flight",
+        "discription": "Get up to Rs. 25,000 off on International Flights!",
+        "coupon_code": "INTFLY",
+        "type": "Flight"
+    }
+
+    {
+        "id": 04,
+        "offer_name": "New User Flight Offer",
+        "category": "Domestic Flight",
+        "discription": "Get a Flat INR 500 Instant OFF",
+        "coupon_code": "CTNEW",
+        "type": "Flight"
+    }
+
+    {
+        "id": 05,
+        "offer_name": "International Flight Deal",
+        "category": "International Flight",
+        "discription": "Get Flat Rs. 750 off per passenger",
+        "coupon_code": "INT750",
+        "type": "Flight"
+    }
+
+    {
+        "id": 06,
+        "offer_name": "Slice Exclusive",
+        "category": "All Flight",
+        "discription": "Flat 15% Off on Slice card",
+        "coupon_code": "CTSLICE",
+        "type": "Flight"
+    }
+
+    {
+        "id": 07,
+        "offer_name": "Airline Travel Sale",
+        "category": "Domestic Flight",
+        "discription": "Flat 12% off on SpiceJet Domestic Flights!",
+        "coupon_code": "CTSG",
+        "type": "Flight"
+    }
+
+    {
+        "id": 08,
+        "offer_name": "Kotak Bank Cards Offer",
+        "category": "All Flight",
+        "discription": " Flat 15% off** on Domestic and International flights",
+        "coupon_code": "KOTAKCC",
+        "type": "Flight"
+    }
+
+   
+
+]
