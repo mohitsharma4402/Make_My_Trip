@@ -1,9 +1,9 @@
+db.internationallocation.insert(
 [
     {
-        "id": 01,
+        "id": 1,
         "package_name": "Thailand Tour Packages",
         "category": "international_package",
-        "category_id": 04,
         "Trip_Price": 39999,
         "Place": "Thailand",
         "days": "5 Days / 4 Nights",
@@ -13,10 +13,9 @@
     },
 
     {
-        "id": 02,
+        "id": 2,
         "package_name": "Dubai Tour Packages",
         "category": "international_package",
-        "category_id": 04,
         "Trip_Price": 49999,
         "Place": "Dubai",
         "days": "5 Days / 4 Nights",
@@ -26,10 +25,9 @@
     },
     
     {
-        "id": 03,
+        "id": 3,
         "package_name": "Singapore Tour Packages",
         "category": "international_package",
-        "category_id": 04,
         "Trip_Price": 34999,
         "Place": "Singapore",
         "days": "5 Days / 4 Nights",
@@ -39,10 +37,9 @@
     },
 
     {
-        "id": 04,
+        "id": 4,
         "package_name": "Maldives Tour Packages",
         "category": "international_package",
-        "category_id": 04,
         "Trip_Price": 54999,
         "Place": "Maldives",
         "days": "4 Days / 3 Nights",
@@ -52,10 +49,9 @@
     },
 
     {
-        "id": 05,
+        "id": 5,
         "package_name": "Paris Tour Packages",
         "category": "international_package",
-        "category_id": 04,
         "Trip_Price": 94999,
         "Place": "Paris",
         "days": "7 Days / 6 Nights",
@@ -65,10 +61,9 @@
     },
 
     {
-        "id": 06,
+        "id": 6,
         "package_name": "Switzerland Tour Packages",
         "category": "international_package",
-        "category_id": 04,
         "Trip_Price": 74999,
         "Place": "Switzerland",
         "days": "6 Days / 5 Nights",
@@ -79,3 +74,4 @@
 
     
 ]
+)

@@ -1,9 +1,9 @@
+db.beachlocation.insert(
 [
     {
-        "id": 01,
+        "id": 1,
         "beach_name": "Candolim Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 7299,
         "Place": "North Goa",
         "rating": "4.8",
@@ -13,10 +13,9 @@
     },
 
     {
-        "id": 02,
+        "id": 2,
         "beach_name": "Chandipur Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 9599,
         "Place": "Balasore",
         "rating": "4.8",
@@ -26,10 +25,9 @@
     },
 
     {
-        "id": 03,
+        "id": 3,
         "beach_name": "Cavelossim Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 7299,
         "Place": "South Goa",
         "rating": "4.6",
@@ -39,10 +37,9 @@
     },
 
     {
-        "id": 04,
+        "id": 4,
         "beach_name": "Blue Flag Golden Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 8799,
         "Place": "Puri",
         "rating": "4.6",
@@ -52,10 +49,9 @@
     },
 
     {
-        "id": 05,
+        "id": 5,
         "beach_name": "Butterfly Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 5999,
         "Place": "South Goa",
         "rating": "4.5",
@@ -65,10 +61,9 @@
     },
 
     {
-        "id": 06,
+        "id": 6,
         "beach_name": "Om Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 8499,
         "Place": "Gokarna",
         "rating": "4.4",
@@ -78,10 +73,9 @@
     },
 
     {
-        "id": 07,
+        "id": 7,
         "beach_name": "Kovalam Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 10499,
         "Place": "Trivandrum",
         "rating": "4.5",
@@ -91,10 +85,9 @@
     },
 
     {
-        "id": 08,
+        "id": 8,
         "beach_name": "Kanyakumari Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 10999,
         "Place": "Kanyakumari",
         "rating": "4.5",
@@ -104,10 +97,9 @@
     },
 
     {
-        "id": 09,
+        "id": 9,
         "beach_name": "Wandoor Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 15999,
         "Place": "Port Blair",
         "rating": "4.8",
@@ -120,7 +112,6 @@
         "id": 10,
         "beach_name": "Cherai Beach",
         "category": "beach",
-        "category_id": 01,
         "Trip_Price": 10999,
         "Place": "Kochi",
         "rating": "4.5",
@@ -132,3 +123,4 @@
     
 
 ]
+)

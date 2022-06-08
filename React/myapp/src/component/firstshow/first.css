@@ -1,0 +1,22 @@
+#maincontain33{
+    height: 500px;
+    width: 100%;
+    margin-top: 1%;
+    background-image: url('https://i.ibb.co/6ttyvbw/navbar-img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#maincontain33 > h2{
+    position: absolute  ;
+    color: whitesmoke;
+    font-size: 60px;
+    margin-top: 10%;    
+    margin-left: 32%;
+}
+#maincontain33 > h4{
+    position: absolute  ;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 15%;    
+    margin-left: 33%;
+}

@@ -1,3 +1,4 @@
+db.mumbailocation.insert(
 [
     {
         "id": 01,
@@ -77,3 +78,4 @@
         "route": "By Road"
     }
 ]
+)

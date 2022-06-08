@@ -1,0 +1,41 @@
+.mainhead{
+    font-size: 60px;
+    margin-left: 5%;
+}
+#secondhead{
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+#thirdhead{
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+#downbutton{
+    font-size: 19px;
+    margin-left: 20%;
+}
+#downbutton > a{
+    text-decoration: none;
+}
+#app_buttons1{
+    margin-left: 75%;
+    margin-top: -10%;
+
+}
+#app_buttons2{
+    margin-left: 75%;
+
+}
+#maincontain{
+    height: 300px;
+    border: 4px black solid;
+}
+
+#Qr_code > img{
+    height: 100px;
+    width: 100px;
+    margin-left: 86%;
+    margin-top: -6%;
+}

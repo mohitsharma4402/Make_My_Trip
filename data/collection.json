@@ -1,14 +1,18 @@
-[
-    {
-        "id":1,
-        "category":"collection1_data"
-    },
-    {
-        "id":2,
-        "category":"offers_data"
-    },
-    {
-        "id":3,
-        "category":"destination_data"
-    }
-]
+db.data.insert(
+    [
+        {
+            "id":1,
+            "category":"destination_data"
+        },
+
+        {
+            "id":2,
+            "category":"mycollection_data"
+        },
+
+        {
+            "id":3,
+            "category":"offers_data"
+        }
+    ]
+)

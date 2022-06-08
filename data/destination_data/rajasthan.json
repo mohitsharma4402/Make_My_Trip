@@ -1,3 +1,4 @@
+db.rajasthanlocation.insert(
 [
     {
         "id": 01,
@@ -165,3 +166,4 @@
         "route": "By Road"
     }
 ]
+)

@@ -1,0 +1,348 @@
+db.destination.insert(
+    [
+        {
+            "destination_id": 1,
+            "destination_name": "Palolem Beach",
+            "Trip_Price": 4499,
+            "Place": "Palolem",
+            "rating": 4.4,
+            "Image": "https://ibb.co/Drq5h7K",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 2,
+            "destination_name": "Portuguese-Indian Restaurants.",
+            "Trip_Price": 4499,
+            "Place": "Indian_beach",
+            "rating": "4.4",
+            "Image": "https://ibb.co/TLYpxYW",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 3,
+            "destination_name": "Basilica de Bom Jesus.",
+            "Trip_Price": 4499,
+            "Place": "basilica",
+            "rating": "4.4",
+            "Image": "https://ibb.co/BwkQZKz",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 4,
+            "destination_name": "Dudhsagar Falls",
+            "Trip_Price": 4499,
+            "Place": "Dudhsagar Falls",
+            "rating": "4.4",
+            "Image": "https://ibb.co/pr7jqJk",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 5,
+            "destination_name": "Anjuna Market",
+            "Trip_Price": 4499,
+            "Place": "Anjuna",
+            "rating": "4.4",
+            "Image": "https://ibb.co/Drq5h7K",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 6,
+            "destination_name": "Braganza House",
+            "Trip_Price": 4499,
+            "Place": "Braganza House",
+            "rating": "4.4",
+            "Image": "https://ibb.co/Nn5Jb2j",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 7,
+            "destination_name": "Mahadev Temple",
+            "Trip_Price": 4499,
+            "Place": "Mahadev Temple",
+            "rating": "4.4",
+            "Image": "https://ibb.co/nsqLy13",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 8,
+            "destination_name": "Mangeshi Temple",
+            "Trip_Price": 4499,
+            "Place": "Mangeshi Temple",
+            "rating": "4.4",
+            "Image": "https://ibb.co/yYyWGhF",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 9,
+            "destination_name": "Fontainhas",
+            "Trip_Price": 4499,
+            "Place": "Fontainhas",
+            "rating": "4.4",
+            "Image": "https://ibb.co/5nVYjKQ",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 10,
+            "destination_name": "Reis Magos Fort",
+            "Trip_Price": 4499,
+            "Place": "Magos Fort",
+            "rating": "4.4",
+            "Image": "https://ibb.co/Xb10Y1f",
+            "state": "Goa",
+            "country": "India",
+            "route": "By Road"
+        },
+
+        {
+            "id": 11,
+            "destination_name": "Leh Ladakh",
+            "Trip_Price": 24999,
+            "Place": "Leh Ladakh",
+            "rating": "4.8",
+            "Image": "https://ibb.co/3M4KnJQ",
+            "state": "  Himachal Pradesh",
+            "country": "India",
+            "route": "By Road"
+        },
+
+        {
+            "id": 12,
+            "destination_name": "Malana",
+            "Trip_Price": 17499,
+            "Place": "Malana",
+            "rating": "4.4",
+            "Image": "https://ibb.co/j68XcK0",
+            "state": " Himachal Pradesh",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 13,
+            "destination_name": "Andretta",
+            "Trip_Price": 19499,
+            "Place": "Andretta",
+            "rating": "4.5",
+            "Image": "https://ibb.co/WkXfJM6",
+            "state": "Himachal Pradesh",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 14,
+            "destination_name": "Kasol",
+            "Trip_Price": 14999,
+            "Place": "Kasol",
+            "rating": "4.8",
+            "Image": "https://ibb.co/kM24LC0",
+            "state": "Himachal Pradesh",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 15,
+            "destination_name": "Tirthan Valley",
+            "Trip_Price": 11999,
+            "Place": "Tirthan Valley",
+            "rating": "4.2",
+            "Image": "https://ibb.co/Dpp9n7k",
+            "state": "Himachal Pradesh",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 16,
+            "destination_name": "Spiti Valley",
+            "Trip_Price": 14199,
+            "Place": "Spiti Valley",
+            "rating": "4.5",
+            "Image": "https://ibb.co/kM24LC0",
+            "state": "Himachal Pradesh",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 17,
+            "destination_name": "Gateway of India",
+            "Trip_Price": 9999,
+            "Place": "Gateway of India",
+            "rating": "4.5",
+            "Image": "https://ibb.co/dpd3MvF",
+            "state": "Mumbai",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 18,
+            "destination_name": "Sanjay Gandhi National Park",
+            "Trip_Price": 4999,
+            "Place": "Sanjay Gandhi National Park",
+            "rating": "4.2",
+            "Image": "https://ibb.co/fCKd5cz",
+            "state": "Mumbai",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 19,
+            "destination_name": "Red Carpet Wax Museum",
+            "Trip_Price": 6999,
+            "Place": "Red Carpet Wax Museum",
+            "rating": "4.1",
+            "Image": "https://ibb.co/T2Z0Hz3",
+            "state": "Mumbai",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 20,
+            "destination_name": "Haji Ali Dargah",
+            "Trip_Price": 4999,
+            "Place": "Haji Ali Dargah",
+            "rating": "3.8",
+            "Image": "https://ibb.co/QCtVWYQ",
+            "state": "Mumbai",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 21,
+            "destination_name": "Elephanta Caves",
+            "Trip_Price": 3499,
+            "Place": "Elephanta Caves",
+            "rating": "4.0",
+            "Image": "https://ibb.co/kMJ97rq",
+            "state": "Mumbai",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 22,
+            "destination_name": "Chhatrapati Shivaji Terminus (CST)",
+            "Trip_Price": 2999,
+            "Place": "Chhatrapati Shivaji Terminus (CST)",
+            "rating": "4.2",
+            "Image": "https://ibb.co/x7V8PkB",
+            "state": "Mumbai",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 23,
+            "destination_name": "Siddhivinayak Temple",
+            "Trip_Price": 1999,
+            "Place": "Siddhivinayak Temple",
+            "rating": "4.1",
+            "Image": "https://ibb.co/nsqLy13",
+            "state": "Mumbai",
+            "country": "India",
+            "route": "By Road"
+        },
+
+        {
+            "id": 24,
+            "destination_name": "Haridwar",
+            "Trip_Price": 19499,
+            "Place": "Haridwar",
+            "rating": "4.1",
+            "Image": "https://ibb.co/0Gjy5ZS",
+            "state": "Uttarakhand",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 25,
+            "destination_name": "Uttarkashi",
+            "Trip_Price": 15499,
+            "Place": "Uttarkashi",
+            "rating": "4.1",
+            "Image": "https://ibb.co/107TGSf",
+            "state": "Uttarakhand",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 26,
+            "destination_name": "Landour",
+            "Trip_Price": 17999,
+            "Place": " Landour",
+            "rating": "4.1",
+            "Image": "https://ibb.co/DKLWqDN",
+            "state": "Uttarakhand",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 27,
+            "destination_name": "Kalap",
+            "Trip_Price": 14799,
+            "Place": "Kalap",
+            "rating": "4.1",
+            "Image": "https://ibb.co/54jGcJc",
+            "state": "Uttarakhand",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 28,
+            "destination_name": "Dehradun",
+            "Trip_Price": 9999,
+            "Place": "Dehradun",
+            "rating": "4.1",
+            "Image": "https://ibb.co/W2NzGkq",
+            "state": "Uttarakhand",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 29,
+            "destination_name": "Rishikesh",
+            "Trip_Price": 8999,
+            "Place": "Rishikesh",
+            "rating": "4.1",
+            "Image": "https://ibb.co/59YFvcdhttps://ibb.co/WVsJw6x",
+            "state": "Uttarakhand",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 30,
+            "destination_name": "Nainital",
+            "Trip_Price": 14999,
+            "Place": "Nainital",
+            "rating": "4.1",
+            "Image": "https://ibb.co/WVsJw6x",
+            "state": "Uttarakhand",
+            "country": "India",
+            "route": "By Road"
+        },
+        {
+            "id": 31,
+            "destination_name": "Mussoorie",
+            "Trip_Price": 8999,
+            "Place": "Mussoorie",
+            "rating": "4.1",
+            "Image": "https://ibb.co/M7RD2G1",
+            "state": "Uttarakhand",
+            "country": "India",
+            "route": "By Road"
+        }
+    ]
+)

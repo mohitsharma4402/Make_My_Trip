@@ -1,9 +1,9 @@
+db.heritagelocation.insert(
 [
     {
-        "id": 01,
+        "id": 1,
         "heritage_site": "Taj Mahal",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 4299,
         "Place": "Agra",
         "rating": "4.5",
@@ -13,10 +13,9 @@
     },
 
     {
-        "id": 02,
+        "id": 2,
         "heritage_site": "Hampi",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 4999,
         "Place": "Vijayanagara",
         "rating": "4.5",
@@ -26,10 +25,9 @@
     },
 
     {
-        "id": 03,
+        "id": 3,
         "heritage_site": "Ajanta Caves ",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 6499,
         "Place": " Aurangabad ",
         "rating": "4.5",
@@ -39,10 +37,9 @@
     },
 
     {
-        "id": 04,
+        "id": 4,
         "heritage_site": "Khajuraho ",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 5299,
         "Place": " Chhatarpur",
         "rating": "4.5",
@@ -52,12 +49,11 @@
     },
 
     {
-        "id": 05,
+        "id": 5,
         "heritage_site": "Elephanta Caves",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 5799,
-        "Place": "	Elephanta Island",
+        "Place": "Elephanta Island",
         "rating": "4.5",
         "Image": "https://ibb.co/S5BncRK",
         "state": " Maharashtra,India",
@@ -65,10 +61,9 @@
     },
 
     {
-        "id": 06,
+        "id": 6,
         "heritage_site": "Kaziranga National Park",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 8999,
         "Place": "Kaziranga",
         "rating": "4.5",
@@ -78,10 +73,9 @@
     },
 
     {
-        "id": 07,
+        "id": 7,
         "heritage_site": "Amber Palace",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 5299,
         "Place": "Jaipur",
         "rating": "4.5",
@@ -91,10 +85,9 @@
     },
 
     {
-        "id": 08,
+        "id": 8,
         "heritage_site": "Konark",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 8999,
         "Place": "Puri",
         "rating": "4.5",
@@ -104,10 +97,9 @@
     },
 
     {
-        "id": 09,
+        "id": 9,
         "heritage_site": "Qutb Minar",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 7999,
         "Place": "Mehrauli",
         "rating": "4.5",
@@ -120,7 +112,6 @@
         "id": 10,
         "heritage_site": "Historic City of Ahmadabad",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 8499,
         "Place": "Ahmadabad",
         "rating": "4.5",
@@ -133,7 +124,6 @@
         "id": 11,
         "heritage_site": "Humayun's Tomb",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 6999,
         "Place": "Nizamuddin East",
         "rating": "4.5",
@@ -146,13 +136,13 @@
         "id": 12,
         "heritage_site": "Darjeeling Himalayan Railway",
         "category": "heritage",
-        "category_id": 02,
         "Trip_Price": 6999,
         "Place": "Darjeeling",
         "rating": "4.5",
         "Image": "https://ibb.co/m6njCJ1",
         "state": "West Bengal,India",
         "route": "By Train"
-    },
+    }
 
 ]
+)

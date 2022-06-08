@@ -1,0 +1,15 @@
+#about{
+    height: 350px;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #f5f5f5;
+}
+#contain12{
+    float: left;
+    height: 280px;
+    width: 29%;
+    margin: 2%;
+}
+#contain12 > h3{
+    font-size: 25px
+}

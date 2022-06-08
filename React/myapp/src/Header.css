@@ -1,0 +1,41 @@
+#headermain{
+    height:40px;
+    width: 100%;
+    background-color: black;
+}
+#navbar_main{
+    margin-left: 1%;
+}
+#icon{
+    float:left
+}
+
+#logo_my{
+    background-color: red;
+    border-radius: 5px;
+}
+
+#logo{
+    color: white;
+    font-size: 30px;
+    margin-top: 0%;
+    margin-left: 1%;
+    text-decoration: none;
+}
+#logo > span{
+    margin-top: 1%;
+}
+#login_button{
+    float: left;
+    margin-top: -2%;
+    margin-left: 60%;
+}
+#lng_button{
+    font-size: 20px;
+    margin-left: 0%;
+    float: left;
+}
+
+#lng_button > a{
+    text-decoration: none;
+}

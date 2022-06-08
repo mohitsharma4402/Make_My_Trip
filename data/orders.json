@@ -1,0 +1,58 @@
+db.orders.insert([
+    {
+        
+        "name": "Abhinav",
+        "email": "abhinav123@gmail.com",
+        "address": "Hno 23,Sector 1",
+        "phone": 768768686,
+        "cost": 87987,
+        "tripPackage": [
+            3,
+            5,
+            7
+        ],
+        "status": "Pending"
+    },
+    {
+       
+        "name": "Anushree",
+        "email": "anushree321@gmail.com",
+        "address": "Hno 23,Sector 1",
+        "phone": 7611558899,
+        "cost": 100124,
+        "tripPackage": [
+            6,
+            34,
+            23
+        ],
+        "status": "Pending"
+    },
+    {
+       
+        "name": "Rajveer",
+        "email": "rajveer02468@gmail.com",
+        "address": "Hno 23,Sector 1",
+        "phone": 805838686,
+        "cost": 150344,
+        "tripPackage": [
+            12,
+            45,
+            21
+        ],
+        "status": "Pending"
+    },
+    {
+        
+        "name": "Deepak",
+        "email": "deepak0011@gmail.com",
+        "address": "Hno 23,Sector 1",
+        "phone": 9658965874,
+        "cost": 42531,
+        "tripPackage": [
+            34,
+            26,
+            17
+        ],
+        "status": "Pending"
+    }
+])

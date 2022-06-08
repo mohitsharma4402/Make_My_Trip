@@ -1,0 +1,38 @@
+[
+    {
+      "mealtype_id": 2,
+      "mealtype": "Introducing Price Lock on Domestic Flights!",
+      "content": "Lock domestic flight fares @ JUST Rs. **99 &amp; book later.",
+      "meal_image": "https://i.ibb.co/vh0XQwj/AERO7.png"
+    },
+    {
+      "mealtype_id": 3,
+      "mealtype": "Presenting MMT Luxe Selections:",
+      "content": "Ultra-indulgent stays with handpicked services, for your rare taste.",
+      "meal_image": "https://i.ibb.co/68x4yf2/tour-3.jpg"
+    },
+    {
+      "mealtype_id": 6,
+      "mealtype": "Book Your Holidays Now!",
+      "content": "Get up to 25% off on packages.",
+      "meal_image": "https://i.ibb.co/KVQbpR2/tour-6.jpg"
+    },
+    {
+      "mealtype_id": 4,
+      "mealtype": "Introducing Double Guarantee on Outstation Cabs!",
+      "content": "Get confirmed cab arrival else 2X money back!",
+      "meal_image": "https://i.ibb.co/JKFPJ1j/cab1.png"
+    },
+    {
+      "mealtype_id": 5,
+      "mealtype": "Irresistible Offers on India Holidays!",
+      "content": "Book now to enjoy up to 25% OFF* on holiday packages.",
+      "meal_image": "https://i.ibb.co/kSx27zF/tour-5.jpg"
+    },
+    {
+      "mealtype_id": 1,
+      "mealtype": "ARRIVED: The Great Offers on Homestays!",
+      "content": "Grab FLAT 25% OFF* on 3000+ properties &amp; stay the way you like.",
+      "meal_image": "https://i.ibb.co/ynfLn2F/room-5.jpg"
+    }
+]

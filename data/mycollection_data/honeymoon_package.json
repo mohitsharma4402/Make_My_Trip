@@ -1,0 +1,101 @@
+db.honeymoonlocation.insert(
+    [
+        {
+            "id": 1,
+            "heritage_site": "Andaman",
+            "category": "honeymoon-package",
+            "Trip_Price": 15999,
+            "Place": "Andaman & Nicobar",
+            "rating": "4.8",
+            "Image": "https://ibb.co/HD5XYqy",
+            "state": "Andaman & Nicobar,India",
+            "route": "By Flight"
+        },
+
+        {
+            "id": 2,
+            "heritage_site": "Manali",
+            "category": "honeymoon-package",
+            "Trip_Price": 11999,
+            "Place": "Manali",
+            "rating": "4.3",
+            "Image": "https://ibb.co/1qBM32r",
+            "state": "Himachal Pradesh,India",
+            "route": "By Road"
+        },
+
+        {
+            "id": 3,
+            "heritage_site": "Alleppey",
+            "category": "honeymoon-package",
+            "Trip_Price": 17999,
+            "Place": "Alleppey",
+            "rating": "4.1",
+            "Image": "https://ibb.co/9mPVnPW",
+            "state": "Kerala,India",
+            "route": "By Flight"
+        },
+
+        {
+            "id": 4,
+            "heritage_site": "Leh Ladakh",
+            "category": "honeymoon-package",
+            "Trip_Price": 15499,
+            "Place": "Leh Ladakh",
+            "rating": "4.8",
+            "Image": "https://ibb.co/crxJYpN",
+            "state": "Jammu & Kashmir,India",
+            "route": "By Road"
+        },
+
+        {
+            "id": 5,
+            "heritage_site": "Goa",
+            "category": "honeymoon-package",
+            "Trip_Price": 14499,
+            "Place": "Goa",
+            "rating": "4.5",
+            "Image": "https://ibb.co/sWg815N",
+            "state": "Goa,India",
+            "route": "By Flight"
+        },
+
+        {
+            "id": 6,
+            "heritage_site": "Coorg",
+            "category": "honeymoon-package",
+            "Trip_Price": 15999,
+            "Place": "Coorg",
+            "rating": "4.0",
+            "Image": "https://ibb.co/NrndLvn",
+            "state": "Karnataka,India",
+            "route": "By Flight"
+        },
+
+        {
+            "id": 7,
+            "heritage_site": "Gangtok",
+            "category": "honeymoon-package",
+            "Trip_Price": 16999,
+            "Place": "Gangtok",
+            "rating": "4.2",
+            "Image": "https://ibb.co/BKBH6JL",
+            "state": " Sikkim,India",
+            "route": "By Road"
+        },
+
+        {
+            "id": 8,
+            "heritage_site": "Shimla",
+            "category": "honeymoon-package",
+            "Trip_Price": 16999,
+            "Place": "Shimla",
+            "rating": "4.5",
+            "Image": "https://ibb.co/DpzFSRR",
+            "state": " Himachal Pradesh,India",
+            "route": "By Road"
+        },
+        
+        
+    ]
+)

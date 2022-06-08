@@ -30,6 +30,8 @@ body{
 }
 #navbar_main{
     margin-top: 1%;
+    background-color: black; 
+    
 }
 #background_pic{
     height: 500px;
@@ -225,6 +227,10 @@ margin-left: 6%;
     padding: 1rem 1rem;
     color: black;
 }
+.card-body >button> a{
+    text-decoration: none;
+    color: white;
+}
 .card-body > a{
     text-decoration: none;
 }
@@ -240,7 +246,7 @@ margin-left: 6%;
     color: black;
 }
 #wonders{
-    height: 207px;
+    height: 177px;
 }
 #maincontain1{
     height: 550px;
@@ -289,6 +295,9 @@ margin-left: 6%;
 }
 footer{
     height: 70px;
+}
+.color{
+    background-color: black;
 }
 
 /*responsive*/

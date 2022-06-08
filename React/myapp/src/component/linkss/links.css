@@ -1,0 +1,29 @@
+#mains{
+    height: 650px;
+    width: 100%;
+    
+    background-color: #f0f8ff;
+    margin-top: 2%;
+}
+#maincontain111{
+   
+    width: 94%;
+    margin-left: 4%;
+    
+}
+#chart10 > h4{
+    font-size: 25px;
+    margin-top: 2;
+}
+#chart10 > a{
+    margin-top: -5%;
+}
+#chart10{
+    
+    margin-top: 0%;
+}
+#chart1_content{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}

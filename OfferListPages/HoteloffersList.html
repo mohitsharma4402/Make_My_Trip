@@ -1,0 +1,254 @@
+<html>
+    <head>
+        <title>HOTEL_OFFERS</title>
+        <link href="../OfferListPages/HoteloffersList.css"rel="stylesheet" type="text/css" >
+        <script src="../javascript/offer1coupon.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div id="coupon">
+            <button onClick="closeCoupon()">&times;</button>
+            <img src="https://i.ibb.co/yhDQ656/hotel-coupon.png" alt="coupon">
+            <div id="grabbutton">
+              <button class="btn-outline-dark">!!GRAB NOW!!</button>
+            </div>
+        </div>
+        <script>
+          window.onload=loadCoupon()
+        </script>
+        
+        <header>
+            <nav class="navbar  navbar-expand-md navbar-light bg-faded">
+              <div id="navbar_main" class="container-fluid">
+                <a id="logo" class="navbar-brand" href="../index.html">Make<span id="logo_my">My</span>Trip</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div  class="collapse navbar-collapse">
+                  <div id="nav_trip">
+                    <img src="https://i.ibb.co/TrC8gXd/suitcase.jpg" alt="Trip" class="navbar-light bg-faded">&nbsp;&nbsp;
+                  <div id="mytrip_navbar">
+                    <a href="#"><span>Mytrip</span><br><span>Manage Your Booking</span></a>
+                  </div>
+                </div>
+                <div id="login_button">
+                  <button id="lng_button" class="btn btn-outline-info" type="submit"><img src="https://i.ibb.co/tHssQpd/my-icon.jpg">&nbsp; Login or Create Account &nbsp;&nbsp; &nbsp; &nbsp;</button>
+                  <button id="lng_button" class="btn btn-outline-light" type="submit"> <img src="https://i.ibb.co/p2n1Y2t/india-flag.png"> IN | ENG | INR
+                  </button>
+                  
+                    
+                  </div> 
+                  <div id="modeoption" class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onClick="changeMode()">
+                    <script type="text/javascript">
+                      function changeMode(){
+                          var mybody = document.body;
+                          mybody.classList.toggle('mydark')
+                      }
+                    </script>
+                    <label class="form-check-label" for="flexSwitchCheckDefault">DARK<br>MODE</label>
+                    </div> 
+                </div>
+              </div>
+              </nav>
+             
+      </header>
+
+
+      <div>
+        <div  id="heading">
+            <span id="title1">H</span><span id="title2">OTEL</span><br>
+            <div id="name_heading"><span id="title3">P</span><span id="title4">ACKAGES</span></div>
+            <!-- <div id="title"><h1>Best Offers With New Packages</h1></div> -->
+            
+        </div><hr>
+       <!-- <div class="mainContent">
+            <div id="filter">
+                <h2 id="filterheading">FILTER</h2>
+                <hr/><hr/>
+                <h2 id="filtersubheading">Type Of BreakFast</h2>
+                <hr/>
+                <br>
+                <div id="filterlist">
+                    <input type="radio"/>ALL<br><br>
+                    <input type="radio"/>North Indian Food<br><br>
+                    <input type="radio"/>South Indian Food<br><br>
+                    <input type="radio"/>Chinese Food<br><br>
+                    <input type="radio"/>Fast Food<br><br>
+                    <input type="radio"/>Street Food<br><br>
+                    <input type="radio"/>Fruits<br><br>
+                    <input type="radio"/>Drinks<br><br>
+                </div>
+                <br>
+                <hr/>
+                <h2 id="filtersubheading">Price Range</h2>
+                <hr/><br>
+                <div id="filterlist">
+                <input type="checkbox"/>ALL <br><br>
+                <input type="checkbox"/>00-199/-<br><br>
+                <input type="checkbox"/>200-499/-<br><br>
+                <input type="checkbox"/>500-799/-<br><br> 
+                <input type="checkbox"/>99-799/-<br><br>
+                <input type="checkbox"/>800-999/-<br><br>
+                <input type="checkbox"/>1000-2000/-<br><br><hr>
+                <button id="button1" type="button" class="btn btn-success"><a href="../listing/breakfastlisting.html">Search</a></button><br>
+                <button id="button2" type="button" class="btn btn-warning"><a href="../listing/breakfastlisting.html">Reset Filter</a></button><br>                  
+            </div>
+        </div>-->
+
+
+            <div id="card">
+               <div class="foodcontent">
+                   <img src="https://i.ibb.co/RSgv7q0/hotel-1.jpg" alt="Hotel" title="Hotel" />
+                    <div class="breakfastcontent">
+                   
+                        <div id="tilecontainer21">
+                            <div class="componentheading">
+                                <a href="../Details/detail1.html">Aloo Paratha</a>
+                            </div>
+                            <div class="componentsubheading">
+                                Enjoy Your Meel
+                            </div>
+                            <div class="button01">
+                                <button id="button11" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                                <button id="button12" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                                <button id="button13" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                                <button id="button14" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div><br>
+
+                <div class="foodcontent">
+                        <img src="https://i.ibb.co/DVv9DBZ/hotel-3.jpg" alt="Hotel" title="Hotel" />
+                    <div class="breakfastcontent">
+                
+                     <div id="tilecontainer21">
+                         <div class="componentheading">
+                             <a href="../Details/detail2.html">Samosa Chatni</a>
+                         </div>
+                         <div class="componentsubheading">
+                             Enjoy Your Meel
+                         </div>
+                         <div class="button01">
+                            <button id="button11" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                            <button id="button12" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                            <button id="button13" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                            <button id="button14" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                        </div>
+                </div>
+            </div><br><br>
+
+
+            <div class="foodcontent">
+                <img src="https://i.ibb.co/DzxRjRd/hotel-7.jpg" alt="Hotel" title="Hotel" />
+                 <div class="breakfastcontent">
+                
+                     <div id="tilecontainer21">
+                         <div class="componentheading">
+                             <a href="../Details/detail3.html">Masala Dosa</a>
+                         </div>
+                         <div class="componentsubheading">
+                             Enjoy Your Meel
+                         </div>
+                         <div class="button01">
+                            <button id="button11" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                            <button id="button12" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                            <button id="button13" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                            <button id="button14" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                        </div>
+                        </div>
+            </div><br><br>
+
+
+            <div class="foodcontent">
+                <img src="https://i.ibb.co/X251ScH/hotel-9.jpg" alt="Hotel" title="Hotel" />
+                 <div class="breakfastcontent">
+                
+                     <div id="tilecontainer21">
+                         <div class="componentheading">
+                             <a href="../Details/detail4.html">Idli Sambar</a>
+                         </div>
+                         <div class="componentsubheading">
+                             Enjoy Your Meel
+                         </div>
+                         <div class="button01">
+                            <button id="button11" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                            <button id="button12" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                            <button id="button13" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                            <button id="button14" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                        </div>
+                        </div>
+                </div>
+            </div><br>
+
+
+
+            <div class="foodcontent">
+                <img src="https://i.ibb.co/ynfLn2F/room-5.jpg" alt="Hotel" title="Hotel" />
+                 <div class="breakfastcontent">
+                
+                     <div id="tilecontainer21">
+                         <div class="componentheading">
+                             <a href="../Details/detail5.html">Pav Bhaji</a>
+                         </div>
+                         <div class="componentsubheading">
+                             Enjoy Your Meel
+                         </div>
+                         <div class="button01">
+                            <button id="button11" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                            <button id="button12" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                            <button id="button13" type="button" class="btn btn-success"><a href="#">Search</a></button><br>
+                            <button id="button14" type="button" class="btn btn-warning"><a href="#">Search</a></button><br>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+</div><br><hr>
+
+
+      <footer>
+        <div id="leftfooter" class="container-fluid ">
+            <section class="media">
+              <!-- Facebook -->
+              <a class="social" href="#!" role="icon"><img src="https://i.ibb.co/5KnPY6Y/facebook.png"></a>
+        
+              <!-- Twitter -->
+              <a class="social" href="#!" role="button"><img src="https://i.ibb.co/V2sS11W/twitter4.png"></a>
+        
+              <!-- YouTube -->
+              <a class="social" href="#!" role="button"><img src="https://i.ibb.co/n8YhRkV/youtube1.png"></a>
+        
+              <!-- Instagram -->
+              <a class="social" href="#!" role="button"><img src="https://i.ibb.co/PYhH8DV/insta.png"></a>
+        
+              <!-- Linkedin -->
+              <a class="social" href="#" role="button"><i class="fab fa-linkedin-in"></i></a>
+        
+              <!-- Github -->
+              <a class="social" href="#!" role="button"><img src="https://i.ibb.co/WFkm6Zt/github2.png"></a>
+
+              <div id="footer11" class="text-center p-3">
+                © 2022 Copyright:
+                <a id="Myname" class="text-white" href="https://mohitsharma4402.github.io/myprofile1/">MOHIT SHARMA</a>
+              </div>
+            </section>
+          </div>
+         
+      </footer> <br>
+ 
+    </body>
+
+</html>
