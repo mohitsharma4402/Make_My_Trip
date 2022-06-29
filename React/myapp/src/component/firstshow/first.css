@@ -20,3 +20,16 @@
     margin-top: 15%;    
     margin-left: 33%;
 }
+#buttons{
+    float: left;
+    width: 100%;
+    margin-top: 23%;
+    margin-left: 22%;
+}
+.button{
+    margin: 2%;
+    font-size: 35px;
+}
+.button > a{
+    text-decoration: none;
+}

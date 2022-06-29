@@ -31,6 +31,18 @@ app.get('/location',(req,res) => {
     }
 })
 
+//airport_data
+app.get('/airport',(req,res) => {
+    if(req.query.token === token){
+        db.airport('data').find().toArray((err,result) => {
+            if(err) throw err;
+            res.send(result)
+        })
+    }else{
+        res.send('Unauthorise')
+    }
+})
+
 //collection
 app.get('/collection',(req,res) =>{
     db.collection('collection').find().toArray((err,result) => {

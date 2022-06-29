@@ -1,0 +1,104 @@
+body{
+    margin: 0%;
+}
+
+
+#background_pic{
+    height: 500px;
+    width: 100%;
+}
+#navbar_content > li > a{
+    color: white;
+}
+
+
+#section{
+    height: 150px;
+    border: 0.5px solid gray;
+    text-align: left;
+}
+#radio{
+    margin-left: -71%;
+}
+#text1{
+    margin-top: -2%;
+    margin-left: 71%;
+}
+
+
+#mainto{
+    height: 500px;
+    width: 96%;
+    margin: 2%;
+    background-color: antiquewhite;
+}
+#mainto > h1{
+    color: orange;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bolder;
+}
+#secondmain{
+    background-color: whitesmoke;
+    height: 350px;
+    width: 96%;
+    margin: 2%;
+
+}
+#thirdmain{
+    width: 20%;
+    height: 120px;
+    float: left;
+    margin: 2%;
+    margin-top: 2%;
+}
+#searchmain > button{
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+
+#maincontain1{
+    height: 350px;
+    margin-top: 2%;
+}
+#maincontain12{
+    color: black;
+    background-color: aliceblue;
+    margin: 2%;
+}
+#chart1 > h4{ 
+    font-size: 15px;
+}
+#chart1_content{
+    color: gray;
+    text-decoration: none;
+    font-weight: normal;
+    
+}
+#chart2 > h4{
+    font-size: 15px;
+}
+#chart3 > h4{
+    font-size: 15px;
+}
+#maincontain{
+    height: 380px;
+    background-color: whitesmoke;
+}
+#maincontain2{
+    text-align: center;
+    font-weight: bold;
+}
+#contain1{
+    height: 250px;
+    width: 33.33%;
+    float: left;
+    font-size: 20px;
+}
+
+
+.color{
+    background-color: black;
+}

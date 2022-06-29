@@ -1,7 +1,7 @@
 .firsttitle{
     height: 180px;
     width: 22%;
-    border: 2px black solid;
+    /* border: 2px black solid; */
     float: left;
     margin-left: 2%;
 }
@@ -9,16 +9,17 @@
     margin: auto;
     height: 185px;
     width: 96%;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
 }
 #maincontain1{
     height: 400px;
     margin-top: 2%;
-    border: 4px gray solid;
+    /* border: 4px gray solid; */
 }
 #maincontain1 > h2{
     font-size: 50px;
     margin-left: 2%;
+    background-color: lightcyan;
 }
 .firsttitle > img{
     height: 180px;

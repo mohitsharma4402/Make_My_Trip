@@ -21,6 +21,10 @@ const QuickDisplay = (props) => {
                                 <div className="componentSubHeading">
                                     {item.content}
                                 </div>
+                                <div>
+                                    <Link to="/hotelpage" ><button><a href='#'>BOOK NOW</a></button></Link>
+                                    
+                                </div>
                             </div>
                         </div>
                     </Link>

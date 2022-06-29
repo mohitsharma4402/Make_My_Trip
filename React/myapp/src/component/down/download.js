@@ -9,7 +9,7 @@ class download extends Component{
     }
     render(){
         return(
-           <div id='maincontain'>
+           <div id='maincontain00'>
                 <h1 className='mainhead'>Download App Now !</h1>
                 <h3 id='secondhead'>Get India's #1 travel super app, join 100 Million+ happy travellers!</h3>
                 <p id='thirdhead'>Use code <span>WELCOMEMMT</span> and get upto <span>RS 1200</span> off on your first domestic flight booking</p>
